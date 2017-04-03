@@ -18,6 +18,7 @@ Database is based on RavenDB sample Northwind classes (https://gist.github.com/r
   initializer.
 - Controller waits for database to initialize, then invokes requests to webapi,
   and then uses [ClrMD](https://github.com/Microsoft/clrmd) to attach to the
-  webapp, and grabs statistics to count objects of interest.
+  webapp, and grabs statistics to count objects of interest. Sample
+  controller output: ![](https://raw.githubusercontent.com/nchaly/ef6-metadata-test/master/SampleController.PNG)
 
  
